@@ -3,7 +3,7 @@
 Our goal is to read the root file, and from the title we get some *hint* that it has something to do with permissions.
 
 1. After `ls -l` on `/` directory, it can be seen that `root` is a directory which is also a file in linux (this will come in handy later).
-We can also see the permissions of root director `drwx------   1 root   root     23 Aug  4  2023 root` which means that owner name is
+We can also see the permissions of root directory `drwx------   1 root   root     23 Aug  4  2023 root` which means that owner name is
 `root` and group name is `root`. The permission also indicates that the only one that has access to `rwx` or read, write, and execute
 the file is the file owner. We are not `root` user then it is not possible to directly go inside `root` file to read whats inside.
 
