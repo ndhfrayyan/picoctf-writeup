@@ -7,7 +7,7 @@ We can also see the permissions of root directory `drwx------   1 root   root   
 `root` and group name is `root`. The permission also indicates that the only one that has access to `rwx` or read, write, and execute
 the file is the file owner. We are not `root` user then it is not possible to directly go inside `root` file to read whats inside.
 
-2. Since we don't have access, then we might need something to use the command `sudo` aka super user do. This basically gives us superpower to
+2. Since we don't have access, then we might need to use the command `sudo` or "super user do". This basically gives us superpower to
 do things that we aren't supposed to be able to do (execute command that are restricted to user `root`). This access is actually given by the system
 administrators, and to check what access are given to us we can use `sudo -l`. After running this command we can see that we are given access to execute
 `/bin/vi` which can be done by doing `sudo vi`. `vi` is a command that is a tool can be used to edit file from terminal similar to `nano` and `vim`.
